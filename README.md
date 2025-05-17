@@ -6,8 +6,9 @@ This will run locally with the `Makefile`.
 
 ## CI/CD 
 
-This runs on the DigitalOcean box - that configuration is in the DO repository.  You can publish this anywhere and
-the DO box will pick it up based on the `caddy/watchtowerr` configuration.
+When you `docker publish` the image it will be picked up automatically based on a remote `caddy/watchtowerr` configuration.
+
+This runs on the DigitalOcean box - that configuration is in the IAC section of [the blowpipe repository](https://github.com/simonski/blowpipe).  
 
 ## build
 
