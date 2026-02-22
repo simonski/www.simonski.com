@@ -7,7 +7,16 @@
     <link href="fullscreen.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <img alt="full screen background image" src="fullscreen.jpeg" id="full-screen-background-image" /> 
+
+		<div class="background-frame">
+			<img alt="full screen background image" src="fullscreen.jpeg" id="full-screen-background-image" usemap="#fishmap" />
+			<map name="fishmap">
+				<area shape="circle" coords="50%,50%,10%" href="#" alt="Fish" id="fish-area" />
+			</map>
+			<div id="fish-popup" class="fancy-popup">
+				<a href="https://en.wikipedia.org/wiki/Fish" target="_blank">🐟 Learn about Fish on Wikipedia</a>
+			</div>
+		</div>
 
 	<div id="wrap">
 		<div id="header">
@@ -17,16 +26,11 @@
 	</div>
 
 	<div id="footer" valign="bottom">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-      <pre>	
-   // simonski@gmail.com
-   // programmer
-      </pre>
+		<pre>
+			<a href="http://blog.simonski.com">blog</a>
+			<a href="mailto:simon.gauld@gmail.com">email</a>
+		</pre>
 	</div>
 
-  </body>
+	</body>
 </html>
